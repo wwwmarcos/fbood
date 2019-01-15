@@ -6,6 +6,7 @@
   "author": "<marcos.florencio@tecnospeed.com.br>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "puppeteer": "^1.11.0"
   }
 }
