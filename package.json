@@ -1,0 +1,11 @@
+{
+  "name": "exu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eptaccio/exu.git",
+  "author": "<marcos.florencio@tecnospeed.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  }
+}
