@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer')
 
 async function start () {
   const browser = await puppeteer.launch({
-    // headless: false,
+    headless: false,
     args: ['--disable-notifications']
   })
 
@@ -24,10 +24,9 @@ async function start () {
   await page.click('[contenteditable]')
 
   for (let index = 0; index < 1000; index++) {
-    await page.keyboard.press('KeyO')
-    await page.keyboard.press('KeyI')
+    await page.keyboard.type(config.facebook.commentText, { delay: 100 })
     await page.keyboard.press('Enter')
-    await page.waitFor(500)
+    await page.waitFor(1000)
   }
 
   await page.waitFor(5000)

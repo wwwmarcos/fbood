@@ -4,7 +4,8 @@ const config = {
   facebook: {
     username: process.env.USER_NAME,
     password: process.env.PASSWORD,
-    postUrl: process.env.POST_URL
+    postUrl: process.env.POST_URL,
+    commentText: process.env.COMMENT_TEXT
   }
 }
 
