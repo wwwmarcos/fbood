@@ -2,8 +2,7 @@
 Auto comment on any facebook post
 
 # Install
-`npm install`
-
+> npm install
 
 # Usage
 Create a .env file with your data (like `.env.example`)
