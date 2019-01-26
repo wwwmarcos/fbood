@@ -10,4 +10,5 @@ POST_URL=facebook.com/post.url/url
 COMMENT_TEXT=oi
 ```
 
-node index.js
+Run
+`node index.js`
